@@ -38,10 +38,10 @@ public class App {
         System.out.println("AEDs II COMÉRCIO DE COISINHAS");
         System.out.println("=============================");
     }
-   
+
     static <T extends Number> T lerOpcao(String mensagem, Class<T> classe) {
         
-    	T valor;
+    T valor;
         
     	System.out.println(mensagem);
     	try {

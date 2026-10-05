@@ -10,7 +10,6 @@ public class Pilha<E> {
 		Celula<E> sentinela = new Celula<E>();
 		fundo = sentinela;
 		topo = sentinela;
-
 	}
 
 	public boolean vazia() {
@@ -20,6 +19,7 @@ public class Pilha<E> {
 	public void empilhar(E item) {
 
 		topo = new Celula<E>(item, topo);
+
 	}
 
 	public E desempilhar() {
@@ -28,6 +28,17 @@ public class Pilha<E> {
 		topo = topo.getProximo();
 		return desempilhado;
 
+	}
+	public E concatenar(Pilha){
+
+
+	}
+	public int obterNumeroDeItens(){
+		 
+	}
+
+	public E inverter(){
+		
 	}
 
 	public E consultarTopo() {
@@ -39,6 +50,7 @@ public class Pilha<E> {
 		return topo.getItem();
 
 	}
+
 
 	/**
 	 * Cria e devolve uma nova pilha contendo os primeiros numItens elementos
@@ -57,4 +69,5 @@ public class Pilha<E> {
 		// TODO
 		return null;
 	}
+
 }
