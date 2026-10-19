@@ -29,18 +29,7 @@ public class Pilha<E> {
 		return desempilhado;
 
 	}
-	public E concatenar(Pilha){
-
-
-	}
-	public int obterNumeroDeItens(){
-		 
-	}
-
-	public E inverter(){
-		
-	}
-
+	
 	public E consultarTopo() {
 
 		if (vazia()) {
